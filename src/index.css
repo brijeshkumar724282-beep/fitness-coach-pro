@@ -26,9 +26,9 @@ body {
   border: 1px solid #2a2a2e;
 }
 
-.dot-grid {
-  background-image: radial-gradient(#2a2a2e 1px, transparent 1px);
-  background-size: 22px 22px;
+.solid-ring {
+  border: 1px solid #2a2a2e;
+  border-radius: 9999px;
 }
 
 .tick {

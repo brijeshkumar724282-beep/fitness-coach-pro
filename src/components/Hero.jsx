@@ -38,7 +38,8 @@ function Counter({ value, suffix }) {
 export default function Hero() {
   return (
     <section id="top" className="relative overflow-hidden pt-28 md:pt-36">
-      <div aria-hidden="true" className="dot-grid pointer-events-none absolute inset-0 opacity-60" />
+      <div aria-hidden="true" className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full border border-line" />
+      <div aria-hidden="true" className="pointer-events-none absolute -left-32 top-64 h-72 w-72 rounded-full border border-line" />
       <div className="relative mx-auto max-w-6xl px-5 pb-16">
         <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
